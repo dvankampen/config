@@ -2,4 +2,4 @@
 	name = Dave VanKampen
 	email = dave.vankampen@gmail.com
 [credential]
-	helper = osxkeychain
+	helper = cache
