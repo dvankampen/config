@@ -60,3 +60,7 @@ alias l='ls -CF'
 export PATH=/usr/local/bin:$PATH
 export EDITOR=vim
 alias ll='ls -ll'
+if [[ -e "$HOME/.bash_profile_local" ]]; then
+	source $HOME/.bash_profile_local
+fi
+
